@@ -6,10 +6,10 @@ img: Jekyll_(software)_Logo.png
 thumbnail-img: /assets/img/Jekyll_(software)_Logo.png
 tags: websitegenerator
 ---
-Merhaba. Bloğumun ilk yazısı olan Jekyll ile Blog Oluşturma ve Yayımlama yazıma hoşgeldiniz. Başlıktan da anlaşılacağı üzere bugün bu bloğu kurarken de kullanmış olduğum Jekyll statik site oluşturucusu ile bir blog sitesi oluşturup bunu github student pack sayesinde namecheap domain servisleri ile yayınlayacağız.
+Merhaba. Bloğumun ilk yazısı olan Jekyll ile Blog Oluşturma ve Yayımlama yazıma hoşgeldiniz. Başlıktan da anlaşılacağı üzere bugün bu bloğu kurarken de kullanmış olduğum Jekyll statik site oluşturucusu ile bir blog sitesi oluşturup bunu github student pack sayesinde namecheap domain servisleri ile yayımlayacağız.
 
 # Öncelikle Jekyll ile Tanışalım
-Jekyll Ruby Programlama Dili ile geliştirmiş, açık kaynak bir statik site oluşturucudur (Static Site Generator). Jekyll ile hızlıca web sitesi oluşturabilir ve yayınlayabilirsiniz.
+Jekyll Ruby Programlama Dili ile geliştirmiş, açık kaynak bir statik site oluşturucudur (Static Site Generator). Jekyll ile hızlıca web sitesi oluşturabilir ve yayımlayabilirsiniz.
 
 Elbette her sorunu çözen sihir bir değnek olmakdığı hatırlamamız gerekli. Jekyll ağırlı olarak; blog, cv, iletişim sitesi, etkinlik sitesi, dökümantasyon sitesi gibi içeriğin webadmin tarafından oluşturulduğu ve kullanıcıyla daha az etkileşime girildiği web siteleri için etklidir. Ne yazık ki Jekyll ile bir e-ticaret sitesi geliştiremezsiniz. Bunun sebebi ise onun bir static site generator olmasındandır.
 
@@ -70,11 +70,11 @@ myblog
 
 Dosyalar ve Dizinler;
 
-**404.html: **404 hatası yaşandığı durumda kullanıcı tarafından görüntülecek dosyadır.
+**404.html:** 404 hatası yaşandığı durumda kullanıcı tarafından görüntülecek dosyadır.
 
-**about.markdown: **Default oluşturulmuş 'about' sayfasının içeriğidir.
+**about.markdown:** Default oluşturulmuş 'about' sayfasının içeriğidir.
 
-**_config.yml: **Jekyll projesinin yapılandırma ayarlarının bulunduğu dosyadır.
+**_config.yml:** Jekyll projesinin yapılandırma ayarlarının bulunduğu dosyadır.
 
 **index.markdown:** Default oluşturulmuş 'index' sayfasının içeriğidir. Projenizde 'index' dosyası bulunmanız tavsiye edilir. Eğer kullanmak istemiyorsanız _config.yml dosyası içerisindeki baseurl kısmına anasayfa olarak belirlemek istediğiniz sayfayı yazabilirsiniz.
 
@@ -174,7 +174,7 @@ bundle exec jekyll serve
 ```
 
 Jekyll gibi farklı dillerde gelişirilmiş yüzlerce statik site oluşturucusu mevcuttur. Meraklıları[ bu](https://jamstack.org/generators/) sayfaya göz atabilir 😊
-# Site Yayınlama
+# Site Yayımlama
 
 Herşey hazır gibiyse eğer sıra sitemizi yayına almaya geldi . Github'ın nimetlerinden yararlanma zamanı [bu](https://education.github.com/pack) linke tıklayarak namecheap sitesini bulun
 
