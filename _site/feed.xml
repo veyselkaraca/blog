@@ -7,8 +7,8 @@
     
     <description>This website is a virtual proof that I'm awesome</description>
     
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
     
       <item>
@@ -18,8 +18,8 @@
           Merhaba. Bloğumun ilk yazısı olan Jekyll ile Blog Oluşturma ve Yayımlama yazıma hoşgeldiniz. Başlıktan da anlaşılacağı üzere bugün bu bloğu kurarken de kullanmış olduğum Jekyll statik site oluşturucusu ile bir blog sitesi oluşturup bunu github student pack sayesinde namecheap domain servisleri ile yayımlayacağız. Öncelikle Jekyll ile Tanışalım Jekyll Ruby Programlama...
         </description>
         <pubDate>Sat, 31 Jul 2021 00:00:00 -0400</pubDate>
-        <link>/jekyll-ile-blog-olusturma-ve-yayinlama</link>
-        <guid isPermaLink="true">/jekyll-ile-blog-olusturma-ve-yayinlama</guid>
+        <link>http://localhost:4000/jekyll-ile-blog-olusturma-ve-yayinlama</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-ile-blog-olusturma-ve-yayinlama</guid>
       </item>
     
   </channel>
