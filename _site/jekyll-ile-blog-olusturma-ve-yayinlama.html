@@ -11,6 +11,7 @@
 
   <title>Jekyll ile Blog Oluşturma ve Yayımlama</title>
   <meta name="robots" content="nofollow">
+  <meta name="publisher" content="Veysel Karaca">
   
   <meta name="author" content="Veysel Karaca">
   
@@ -94,7 +95,6 @@
   
   <meta name="twitter:site" content="@veysellkrc">
   <meta name="twitter:creator" content="@veysellkrc">
-
   <meta property="twitter:title" content="Jekyll ile Blog Oluşturma ve Yayımlama">
   <meta property="twitter:description" content="Merhaba. Bloğumun ilk yazısı olan Jekyll ile Blog Oluşturma ve Yayımlama yazıma hoşgeldiniz. Başlıktan da anlaşılacağı üzere bugün bu bloğu kurarken de kullanmış olduğum Jekyll statik site oluşturucusu ile bir blog sitesi oluşturup bunu github student pack sayesinde namecheap domain servisleri ile yayımlayacağız. Öncelikle Jekyll ile Tanışalım Jekyll Ruby Programlama...">
   <meta name="msapplication-TileImage" content="https://veyselkaraca.me/ms-icon-150x150.png">
@@ -130,18 +130,18 @@
   
 
 
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Veysel Karaca</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" title="Home" href="http://localhost:4000/">Veysel Karaca</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" title="About Me" href="/aboutme">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" title="Author's Home" href="https://veyselkaraca.me">Author's home</a>
-      </li>
+          <li class="nav-item">
+            <a class="nav-link" title="About Me" href="/aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="Author's home" href="https://veyselkaraca.me">Author's home</a>
+          </li>
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">
             <span id="nav-search-icon" class="fa fa-search"></span>
@@ -156,7 +156,7 @@
     <div class="avatar-container">
       <div class="avatar-img-border">
         <a href="http://localhost:4000/">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.png" />
+          <img alt="Navigation bar avatar" title="Home" class="avatar-img" src="/assets/img/avatar-icon.png" />
         </a>
       </div>
     </div>
@@ -441,7 +441,7 @@ bundle exec jekyll serve
         <div class="blog-tags">
           <span>Tags:</span>
           
-            <a href="/tags#websitegenerator">websitegenerator</a>
+            <a title="websitegenerator" href="/tags#websitegenerator">websitegenerator</a>
           
         </div>
       
@@ -602,7 +602,7 @@ bundle exec jekyll serve
       </p>
       <p class="theme-by text-muted">
         Created by
-        <a href="https://veyselkaraca.me">Veysel Karaca</a>
+        <a title="Author's Home" href="https://veyselkaraca.me">Veysel Karaca</a>
       </p>
       </div>
     </div>
