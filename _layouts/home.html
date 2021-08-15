@@ -34,7 +34,7 @@ layout: page
     {% endif %}
     {% endif %}
 
-    <a href="{{ post.url | absolute_url }}">
+    <a title="{{ post.title }}" href="{{ post.url | absolute_url }}">
       <h2 title="{{ post.title }}" class="post-title">{{ post.title }}</h2>
 
       {% if post.subtitle %}
