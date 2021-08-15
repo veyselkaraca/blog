@@ -2,7 +2,6 @@
 title: Jekyll ile Blog Oluşturma ve Yayımlama
 permalink: jekyll-ile-blog-olusturma-ve-yayinlama
 author: veysel karaca
-img: Jekyll_(software)_Logo.png
 thumbnail-img: /assets/img/Jekyll_(software)_Logo.png
 tags: websitegenerator
 ---
@@ -23,7 +22,7 @@ Bu öğreticide Jekyll ile nasıl web sitesi oluşturulacağını inceleyeceğiz
 
 Bilinmesi Gerekenler;
 
-Markdown: Bir markup dilidir. Şuan okumuş olduğunuz bu blog yazısı markdown dilinde yazılmış ve HTML'e dönüştürülerek sizlere sunulmuştur. HTML'e oranla çok daha kolay yazılabilen ve okunabilen bir markup dilidir. Jekyll'de içeriklerinizi markdown dosyası olarak oluşturmanız gerekmektedir. Uzantısı .markdown ya da .mddir. Ayrıca markdown içerisine HTML kodları eklenebilir. Bu sayede çok daha güzel görünümlü içerikler elde edilebilir.
+Markdown: Bir markup dilidir. Şuan okumuş olduğunuz bu blog yazısı markdown dilinde yazılmış ve HTML'e dönüştürülerek sizlere sunulmuştur. HTML'e oranla çok daha kolay yazılabilen ve okunabilen bir markup dilidir. Jekyll'de içeriklerinizi markdown dosyası olarak oluşturmanız gerekmektedir. Uzantısı .markdown ya da .md'dir. Ayrıca markdown içerisine HTML kodları eklenebilir. Bu sayede çok daha güzel görünümlü içerikler elde edilebilir.
 
 YAML: Bir başka markup dilidir. Jekyll bu dili _config.yml dosyasında içerikleri oluşturduğunuz markdown dosyalarında kullanmaktadır. Tıpkı markdown gibi kolay okunabilen ve yazılabilen bir yapıya sahiptir. Markdown dosyalarının içinde içeriklerin meta bilgilerini yazmak için kullanılır. Uzantısı .yaml ya da .ymldır.
 
