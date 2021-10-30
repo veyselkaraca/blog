@@ -65,7 +65,7 @@ myblog
 --Gemfile.lock  
 --index.markdown  
 -- _posts  
-----2021-01-10-welcome-to-jekyll.markdown  
+----20210110-welcome-to-jekyll.markdown
 
 Dosyalar ve Dizinler;
 
