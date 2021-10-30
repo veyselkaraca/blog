@@ -16,4 +16,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: 🧪  Build and deploy
-        uses: victoriadrake/jekyll-cd@master
+        uses: veyselkaraca/jekyll-actions@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
