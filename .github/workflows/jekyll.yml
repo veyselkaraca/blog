@@ -19,4 +19,3 @@ jobs:
         uses: veyselkaraca/jekyll-actions@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'gh-pages'
