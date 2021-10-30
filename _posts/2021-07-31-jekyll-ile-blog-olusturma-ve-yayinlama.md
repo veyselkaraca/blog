@@ -1,6 +1,5 @@
 ---
 title: Jekyll ile Blog Oluşturma ve Yayımlama
-permalink: jekyll-ile-blog-olusturma-ve-yayinlama
 author: veysel karaca
 thumbnail-img: /assets/img/Jekyll_(software)_Logo.png
 tags: websitegenerator
@@ -63,7 +62,7 @@ myblog
 --_config.yml  
 --Gemfile  
 --Gemfile.lock  
---index.markdown  
+--index.markdown
 -- _posts  
 ----20210110-welcome-to-jekyll.markdown
 
