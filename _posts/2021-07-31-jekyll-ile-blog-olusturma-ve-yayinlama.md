@@ -113,7 +113,7 @@ bundle exec jekyll serve
 ```
 Komutları çalıştırdıktan sonra 4000 portunda bir servis oluşturarak sitemizin oluşturulmuş halini görüntüleyebiliriz.
 
-![]({{ 'jeckyll_home_page.png' | relative_url }})
+![]({{ 'assets/img/jekyll_home_page.png' | relative_url }})
 
 Aynı zamanda proje dizininde yeni eklemeler oldu. _site dizininde markdown dosyalarımız _config.yml dosyasındaki ayarlamıza göre HTML olarak oluşturuldu. Eğer ki web sitemizi canlıya almak istersek yalnızca '_site' dizininin altındaki dosyaları sunucuya yüklemek yeterli olacaktır. Bu sayede tamamen statik bir web sitesini kullanıcılara sunabiliriz.
 
@@ -177,7 +177,7 @@ Jekyll gibi farklı dillerde gelişirilmiş yüzlerce statik site oluşturucusu 
 
 Herşey hazır gibiyse eğer sıra sitemizi yayına almaya geldi . Github'ın nimetlerinden yararlanma zamanı [bu](https://education.github.com/pack) linke tıklayarak namecheap sitesini bulun
 
-![]({{ 'github_student_namecheap.png' | relative_url }})
+![]({{ 'assets/img/github_student_namecheap.png' | relative_url }})
 
 github hesabınızı namecheamp hesabınıza bağlayarak giriş yapın ve ücretsiz bir .me domaini alabilirsiniz (1 yıl geçerlidir) 
 
