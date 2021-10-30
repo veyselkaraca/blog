@@ -16,8 +16,8 @@ jobs:
         with:
           fetch-depth: 1
       - name: 🧪  Build and deploy
-        uses: jeffreytse/jekyll-deploy-action@v0.3.1
+        uses: helaili/jekyll-action@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           repository: 'veyselkaraca/blog-www'
-          branch: 'main'
+          target_branch: 'main'
