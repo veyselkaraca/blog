@@ -18,4 +18,4 @@ jobs:
       - name: 🧪  Build and deploy
         uses: jeffreytse/jekyll-deploy-action@v0.3.1
         with:
-          target_branch: 'gh-pages'
+          branch: 'gh-pages'
