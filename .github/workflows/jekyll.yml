@@ -20,4 +20,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: 'veyselkaraca/blog-www'
-          branch: 'main'
