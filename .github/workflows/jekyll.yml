@@ -19,5 +19,5 @@ jobs:
         uses: jeffreytse/jekyll-deploy-action@v0.3.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: 'blog-dir'
-          branch: 'master'
+          repository: 'veyselkaraca/blog-www'
+          branch: 'main'
