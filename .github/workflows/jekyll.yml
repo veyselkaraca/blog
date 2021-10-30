@@ -1,23 +1,19 @@
-name: deploy
+name: jekyll-cd
 
 on:
   push:
     branches:
-      - main
-    paths-ignore:
-      - "README.md"
-      - "LICENSE"
+      - master
 
 jobs:
-  deploy:
-    name: github-pages
+  build:
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v2
-      - name: Build and deploy
-        - uses: helaili/jekyll-action@v2
-          with:
-            token: ${{ secrets.GITHUB_TOKEN }}
-            target_branch: 'gh-pages'
+      - name: 🛎 Check out master
+        uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      - name: 🧪 Build and deploy
+        uses: victoriadrake/jekyll-cd@master
