@@ -11,8 +11,6 @@ group :jekyll_plugins do
   gem "jekyll-mentions", "1.6.0"
   gem "webrick"
 end
-platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
-end
 
