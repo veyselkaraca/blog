@@ -5,7 +5,7 @@ tags:
 - IoT
 - Authentication
 thumbnail-img: assets/img/node-red.png
-New field 1: node-red-e-kimlik-dogrulama-eklemek
+permalink: node-red-e-kimlik-dogrulama-eklemek
 ---
 
 Node-RED, IoT projelerinden veri analitiğine kadar birçok kullanım alanında güçlü bir akış tabanlı geliştirme aracıdır. Ancak, Node-RED'in yönetim arabirimine erişimi kısıtlamak ve güvence altına almak istiyorsanız, kimlik doğrulama eklemek önemlidir. Bu blog yazısında, Node-RED'in yönetim arabirimine basit bir kimlik doğrulama nasıl eklenir adım adım açıklanacaktır.
