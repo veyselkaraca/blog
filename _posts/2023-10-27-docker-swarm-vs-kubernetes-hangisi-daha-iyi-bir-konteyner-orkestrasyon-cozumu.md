@@ -8,8 +8,6 @@ thumbnail-img: assets/img/docker_swarm_vs_kubernetes.png
 permalink: docker-swarm-vs-kubernetes-hangisi-daha-iyi-bir-konteyner-orkestrasyon-cozumu
 ---
 
-Giriş:
-
 Konteyner orkestrasyon çözümleri, günümüz uygulama dağıtımının temel taşları haline geldi. Ancak, Docker Swarm ve Kubernetes gibi farklı çözümler arasında bir seçim yapmak, bazen karmaşık bir iş olabilir. Bu makalede, Docker Swarm ve Kubernetes'i karşılaştırarak hangi senaryolarda hangi çözümün daha iyi olduğunu anlayacaksınız.
 1.  Docker Swarm Nedir?
 
